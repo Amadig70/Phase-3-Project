@@ -1,6 +1,9 @@
 # Predicting Water Pump Faults in Tanzania
 
-<center><img src="tanzania-water-wells.jpg" alt="Tanzania water wells"></center>
+<p align="center">
+  <img src="images/tanzania-water-wells.jpg" alt="Sample Image">
+</p>
+
 
 ## Business Understanding
 
@@ -124,7 +127,9 @@ Sampling the first few rows of the dataset to get a glimpse of the data and unde
 Below is a bar chart visualizing the status of water pumps 
 
 
-<center><img src="output_13_0.png" alt="Description of the image"></center>
+<p align="center">
+  <img src="images/output_13_0.png" alt="Sample Image">
+</p>
 
 
 ## Exploring Summary Statistics of Features
@@ -176,9 +181,6 @@ Visualizing the top funders in a dataset can provide insights into the distribut
 
 
 
-
-
-
 #### Interpreting Pump Conditions by Top 10 Funders
 
 The count plot below visualizes the number of pumps in each working condition by the top 10 funders. Here's an interpretation of the results:
@@ -189,8 +191,9 @@ The count plot below visualizes the number of pumps in each working condition by
 The count plot helps in understanding the distribution of pump conditions across different funders, enabling stakeholders to identify patterns, trends, and potential areas for intervention or improvement in water project management and service delivery.
 
 
-<center><img src="output_22_0.png" alt="Description of the image"></center>
-
+<p align="center">
+  <img src="images/output_22_0.png" alt="Sample Image">
+</p>
 
 
 #### Interpreting Pump Status Across Regions
@@ -208,7 +211,9 @@ The count plot below visualizes the distribution of pump status across different
 Overall, this visualization helps in understanding the spatial distribution of pump status across regions, enabling informed decision-making and targeted interventions to address water access challenges effectively.
 
 
-<center><img src="output_24_0.png" alt="Description of the image"></center>
+<p align="center">
+  <img src="images/output_24_0.png" alt="Sample Image">
+</p>
 
 
 #### Interpreting Pump Status Across Top 10 Installers
@@ -228,7 +233,9 @@ The count plot below visualizes the distribution of pump status across the top 1
 Overall, this visualization helps in understanding the distribution of pump status across top installers, enabling stakeholders to identify areas for improvement and implement targeted interventions to ensure the functionality and reliability of water pumps.
 
 
-![png](output_26_0.png)
+<p align="center">
+  <img src="images/output_26_0.png" alt="Sample Image">
+</p>
 
 
 #### Interpreting Pump Status Across Basins
@@ -247,7 +254,10 @@ The count plot below visualizes the distribution of pump status across different
 
 Overall, this visualization helps in understanding the distribution of pump status across basins, enabling stakeholders to identify areas for intervention and prioritize resources effectively to ensure sustainable access to clean water.
 
-![png](output_28_0.png)
+
+<p align="center">
+  <img src="images/output_28_0.png" alt="Sample Image">
+</p>
 
 
 #### Interpreting Distribution of Pump Status on Water Quality
@@ -267,7 +277,9 @@ The count plot below visualizes the distribution of pump status across different
 Overall, this visualization helps in understanding how pump status is distributed across different categories of water quality, facilitating insights into the relationship between water quality issues and pump functionality.
 
 
-![png](output_30_0.png)
+<p align="center">
+  <img src="images/output_30_0.png" alt="Sample Image">
+</p>
 
 
 #### Interpretating Distribution of Pump Status Across Various Extraction Types.
@@ -285,8 +297,9 @@ Overall, this visualization facilitates a comparative analysis of pump status ac
 
 The Government of Tanzania is the biggest funder of water wells in Tanzania. Most of the wells did not have information on who funded them. However, among those with funding information available, Danida, Hesawa, RWSSP, and the World Bank were the second, third, fourth, and fifth largest funders of the wells, respectively.
 
-
-![png](output_33_0.png)
+<p align="center">
+  <img src="images/output_33_0.png" alt="Sample Image">
+</p>
 
 
 #### Distribution of Pump Status across different Water Point Types.
@@ -302,7 +315,9 @@ The Government of Tanzania is the biggest funder of water wells in Tanzania. Mos
 Overall, this visualization aids in comparing the pump status across various water point types, enabling stakeholders to identify patterns and prioritize interventions for improving water infrastructure.
 
 
-![png](output_35_0.png)
+<p align="center">
+  <img src="images/output_35_0.png" alt="Sample Image">
+</p>
 
 
 #### Analyzing Distribution of Amount in TSH Across Pump Status
@@ -322,7 +337,10 @@ This visualization presents a box plot depicting the distribution of the amount 
 
 This visualization facilitates understanding of how the amount in TSH varies across different pump status categories, enabling stakeholders to assess the financial implications associated with pump functionality and maintenance.
 
-![png](output_37_0.png)
+
+<p align="center">
+  <img src="images/output_37_0.png" alt="Sample Image">
+</p>
 
 
 #### Interpretation of Pump Status Distribution by Management
@@ -343,7 +361,9 @@ The countplot below visualizes the distribution of pump status across different 
 This visualization provides insights into how the management approach correlates with the functionality status of waterpoints, which can inform decision-making and resource allocation for improving waterpoint management and maintenance practices.
 
 
-![png](output_39_0.png)
+<p align="center">
+  <img src="images/output_39_0.png" alt="Sample Image">
+</p>
 
 
 #### Analyzing Pump Status Geographical Distribution
@@ -435,8 +455,9 @@ To understand the relationships between different features in the dataset, we vi
 **Insight Generation**: Correlation analysis provides insights into potential relationships between features, enabling better understanding of the dataset's structure and underlying patterns.
 
 
-![png](output_53_0.png)
-
+<p align="center">
+  <img src="images/output_53_0.png" alt="Sample Image">
+</p>
 
 #### Explaining Box Plot of Numerical Features
 
@@ -445,7 +466,9 @@ To understand the relationships between different features in the dataset, we vi
 Box plots are effective tools for visualizing the distribution of numerical data and identifying outliers, providing valuable insights into the dataset's characteristics.
 
 
-![png](output_55_0.png)
+<p align="center">
+  <img src="images/output_55_0.png" alt="Sample Image">
+</p>
 
 
 #### Handling Categorical Columns (e.g., funder, installer, basin, etc.):
@@ -466,8 +489,6 @@ Mapping boolean values to numeric representations is often useful for tasks such
 #### Dropping 'id' Column from Training Set Labels
 
 Dropping the 'id' column is a common preprocessing step, especially since the column doesn't contribute meaningful information to the analysis or model training process. In many datasets, 'id' columns are simply unique identifiers assigned to each data entry and are not relevant to the analysis tasks at hand. Removing such columns can simplify the dataset and improve computational efficiency.
-
-
 
 
 #### Modelling: Train-Test Split
@@ -508,7 +529,6 @@ This code snippet prints the shapes of the feature matrix `X` and the target var
   - The shape is represented as `(number of samples,)`.
 
 Checking the shape of `X` and `y` is crucial for verifying that the data is properly loaded and processed, and it ensures that the dimensions align correctly for model training and evaluation.
-
 
 
 
@@ -594,7 +614,9 @@ Interpreting these results helps in understanding the performance of the logisti
   - Overall, the heatmap provides valuable insights into the strengths and weaknesses of the model's predictions.
 
 
-![png](output_78_0.png)
+<p align="center">
+  <img src="images/output_78_0.png" alt="Sample Image">
+</p>
 
 
 
@@ -632,7 +654,9 @@ Interpreting these results helps in understanding the performance of the logisti
   - It provides valuable information about the model's ability to correctly classify instances belonging to different classes and identify any potential misclassifications.
 
 
-![png](output_84_0.png)
+<p align="center">
+  <img src="images/output_84_0.png" alt="Sample Image">
+</p>
 
 
 The regression model with SMOTE achieved a lower score, primarily because the size of the training dataset was reduced.
@@ -653,7 +677,10 @@ The regression model with SMOTE achieved a lower score, primarily because the si
 This process helps in understanding the optimal configuration of the Decision Tree model and its performance on the dataset.
 
 
-![png](output_89_0.png)
+<p align="center">
+  <img src="images/output_89_0.png" alt="Sample Image">
+</p>
+
 
 
 ## Fourth Model: K-Nearest Neighbors (KNN)
@@ -679,7 +706,9 @@ The confusion matrix heatmap visualizes the performance of the K-nearest neighbo
 By examining the confusion matrix heatmap, we can assess the KNN model's performance across different classes. We can identify which classes are more accurately predicted and which ones have higher misclassification rates. This information helps in understanding the strengths and weaknesses of the model and can guide further improvements or adjustments to the model parameters.
 
 
-![png](output_93_0.png)
+<p align="center">
+  <img src="images/output_93_0.png" alt="Sample Image">
+</p>
 
 
 The output of the evaluation metrics provides insights into the performance of the K-nearest neighbors (KNN) model:
@@ -699,7 +728,9 @@ The output of the GridSearchCV process reveals the best parameters and the corre
 
 **Best Score (Accuracy)**: The accuracy score associated with the best parameters is approximately 83.67%. This indicates that the KNN classifier achieved an accuracy of around 83.67% on the training data when using the optimal combination of hyperparameters identified by the grid search.
 
-![png](output_98_0.png)
+<p align="center">
+  <img src="images/output_98_0.png" alt="Sample Image">
+</p>
 
 
 ##  Fifth Model: KNN with GridSearchCV
@@ -721,8 +752,9 @@ The output of the GridSearchCV process for the Random Forest classifier reveals 
 **Confusion Matrix**: The confusion matrix provides a detailed breakdown of the model's performance across different classes. It shows the number of true positives, true negatives, false positives, and false negatives for each class. In this case, the confusion matrix reveals that the model correctly classified a majority of instances across all classes, with some misclassifications.
 
 
-![png](output_101_0.png)
-
+<p align="center">
+  <img src="images/output_101_0.png" alt="Sample Image">
+</p>
 
 
 ##  Sixth Model: Random Forest with GridserachCV
@@ -741,7 +773,9 @@ The output of the GridSearchCV process for the Random Forest classifier reveals 
 **Confusion Matrix**: The confusion matrix provides a detailed breakdown of the model's predictions across different classes. It shows the number of true positives, true negatives, false positives, and false negatives for each class. In this case, the confusion matrix reveals that the model correctly classified a majority of instances across all classes, with some misclassifications.
 
 
-![png](output_105_0.png)
+<p align="center">
+  <img src="images/output_105_0.png" alt="Sample Image">
+</p>
 
 
 ##  Seventh Model: XGBoost with GridserachCV
@@ -756,7 +790,9 @@ The output of the GridSearchCV for the XGBoost classifier on the test set is as 
 **Confusion Matrix (XGBoost)**: The confusion matrix provides a detailed breakdown of the model's predictions across different classes. It shows the number of true positives, true negatives, false positives, and false negatives for each class. In this case, the confusion matrix reveals that the model correctly classified a majority of instances across all classes, with some misclassifications.
 
 
-![png](output_108_0.png)
+<p align="center">
+  <img src="images/output_108_0.png" alt="Sample Image">
+</p>
 
 
 ### Saving our best model as a pickle file
@@ -765,10 +801,11 @@ Saving your best model as a pickle file involves serializing the model object in
 
 
 ### Comparing Our Models
+Comparing models is an essential step in machine learning to understand which model performs best for your specific problem. Here's a pictorial explanation of how we compared our model
 
-
-![png](output_111_0.png)
-
+<p align="center">
+  <img src="images/output_111_0.png" alt="Sample Image">
+</p>
 
 
 ## Conclusion:
@@ -814,7 +851,7 @@ In conclusion, leveraging machine learning models, particularly the Random Fores
 
 Name: Ahmed Haji
 
-Email:
+Email:ahmed.haji@student.moringaschool.com
 
 Name: Amadi Growman
 
